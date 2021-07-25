@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Text Analyzer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <textarea id="my-text" rows="8" placeholder="Type something here..."></textarea>
+            <p id="count-result">Total charcters: <span id="showChar">0</span></p>
+            <p id="count-result1">Total words: <span id="show">0</span></p>
+            <p id="count-result2">Total sentences: <span id="showSent">0</span></p>
+        </div>
+        <button onclick="countWords(),countSent(),countChar()" name="button">count</button>
+        </div>
+</body>
